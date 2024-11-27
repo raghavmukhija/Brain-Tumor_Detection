@@ -47,6 +47,5 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
 model.fit(train_data, validation_data=val_data, epochs=10)
 
 # Save Model
-os.makedirs(os.path.dirname(save_model_path), exist_ok=True)
 model.save(save_model_path)
 print("Model saved at:", save_model_path)
