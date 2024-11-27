@@ -7,7 +7,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 # Paths
 dataset_path = "Dataset/"
-save_model_path = "model/brain_tumor_detector.h5"
+save_model_path = "brain_tumor_model.h5"
 
 # Data Generators
 datagen = ImageDataGenerator(rescale=1.0/255, validation_split=0.2)
