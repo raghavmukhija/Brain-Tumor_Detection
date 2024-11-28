@@ -6,7 +6,7 @@ from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropou
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 # Paths
-dataset_path = "Dataset/"
+dataset_path = "dataset/"
 save_model_path = "brain_tumor_model.h5"
 
 # Data Generators
